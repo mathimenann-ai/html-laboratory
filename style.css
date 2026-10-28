@@ -53,3 +53,12 @@ ul {
 h1,h2,p {
     font-family: Arial;
 }
+
+.parent > p {
+    color:blueviolet
+}
+
+p {
+    font-stretch: 2px;
+    line-spacing: 1.5;
+}
