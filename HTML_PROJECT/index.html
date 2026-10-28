@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="HTML Laboratory - A beginner portfolio built using Pure HTML.">
+
+    <meta name="author" content="S.Sanmenan">
+
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <title>HTML Laboratory | S. Sanmenan</title>
+
+  <style>
+  
+
+   
+</style>
+</head>
+
+<body>
+
+    <!--==================================================-->
+    <!--                     HEADER                       -->
+    <!--==================================================-->
+
+    <header id="home">
+
+        <div class="container">
+
+            <h1> 🔬 HTML Laboratory </h1>
+
+            <h2>
+                Learning HTML Through a Portfolio Built From Scratch
+            </h2>
+
+            <p>
+                This is more than a personal portfolio. This is a learning project
+                where every section demonstrates a different HTML concept while
+                introducing a different part of my story.
+            </p>
+
+            <p>
+                <strong>Version 1.0</strong> • Pure HTML Edition
+            </p>
+
+            <nav>
+                <ul>
+                    <li>🔬<a href="#home"> Home</a> </li>
+                    <li>🌟<a href="#intro"> Project Introduction</a> </li>
+                    <li>📝 <a href="#visitor_form"> Laboratory Check-In </a> </li>
+                    <li>💻<a href="#developer"> Meet the Developer</a> </li>
+                    <li>🎓<a href="#education"> Education</a> </li>
+                    <li>🛠️<a href="#skills"> Technical Skills</a> </li>
+                    <li>🏆<a href="#achievements"> Achievements & Certifications</a> </li>
+                    <li>🧪<a href="#behind_lab"> Behind the HTML Laboratory</a> </li>
+                    <li>🎥 <a href="#project_demo">Project Demonstration</a></li>
+                    <li>🌅 <a href="#looking_ahead">Looking Ahead</a></li>
+
+                </ul>
+             </nav>
+
+        </div>
+        <hr>
+
+    </header>
+
+    <!--==================================================-->
+    <!--                      MAIN                        -->
+    <!--==================================================-->
+
+    <main>
+
+        <!--==============================================-->
+        <!--          PROJECT INTRODUCTION                -->
+        <!--==============================================-->
+
+        <section id="intro">
+
+            <div class="container">
+
+                <h2> 🌟 Welcome to My HTML Laboratory </h2>
+
+                <p>
+                    This website is my first web development project, built while
+                    learning <abbr title="HyperText Markup Language">HTML</abbr> through the BuildX Bridge Course at Chennai
+                    Institute of Technology.
+                </p>
+
+                <p>
+                    Instead of creating a traditional portfolio, I wanted to build
+                    something that reflects both my learning and my personality.
+                    Every section of this website introduces a different part of who I
+                    am while demonstrating a different HTML element.
+                </p>
+
+                <p>
+                    As you continue exploring, you'll discover my background,
+                    interests, goals, achievements, and experiences—while also seeing
+                    how each section is built using semantic HTML and proper document
+                    structure.
+                </p>
+
+                <p>
+                    Think of this website as both my personal story and an HTML
+                    laboratory—where every new section represents another milestone
+                    in my learning journey.
+                </p>
+
+                <p>
+                    Before we begin exploring my journey, I'd love to know who's
+                    visiting this HTML Laboratory. Please take a moment to introduce
+                    yourself below.
+                </p>
+
+                <hr>
+
+            </div>
+
+        </section>
+
+        <!--============================================-->
+        <!--               VISITOR FORM                 -->
+        <!--============================================-->
+
+        <section id="visitor_form">
+            <div class="container">
+
+                <h2> 📝Laboratory Check-In </h2>
+
+                <p>
+                    Every experiment begins with a quick check-in.
+                    Tell me a little about yourself before we begin.
+                </p>
+
+                
+                <form>
+
+                    <!--visitor name-->
+                    <label for="name">
+                       👤Your Name: <input id="name" name="visitor-name" placeholder="Enter your name "
+                        minlength="2" maxlength="25" required >
+                    </label>
+
+                    <!--visitor type-->
+
+                    <p> Which best describes you? </p>
+
+                        <input type="radio" name="vis_type" value="student" id="student">
+                        <label for="student">Student</label> <br>
+
+                        <input type="radio" name="vis_type" value="recruiter" id="recruiter">
+                        <label for="recruiter">Recruiter</label> <br>
+
+                        <input type="radio" name="vis_type" value="teacher" id="teacher">
+                        <label for="teacher">Teacher</label> <br>
+
+                        <input type="radio" name="vis_type" value="friend" id="friend">
+                        <label for="friend">Friend</label> <br>
+
+                        <input type="radio" name="vis_type" value="others" id="others">
+                        <label for="others">Others</label> <br> <br>
+
+                    <!--Found the Laboratory By-->
+
+                    <label for="found_by"> 
+                       🌐 How did you discover this portfolio:
+                            <select id="found_by" name="discovered_by" required >
+                                <option value="" selected disabled>--Discovered by--:</option>
+                                <option value="linkedin">LinkedIn</option>
+                                <option value="github">GitHub</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="search engine">Search Engine</option>
+                                <option value="others">Others</option>
+                            </select>
+                    </label>
+
+
+                    <br> <br>
+
+
+                    <!--First Impression Textarea-->
+
+                    <label for="msg">
+
+                        Your Thoughts: <br>
+
+                            <textarea   
+                                id="msg" 
+                                name="visitor_message"
+                                rows="5"
+                                cols="30"
+                                placeholder="Share your thoughts 💭..." 
+                                required ></textarea> 
+
+                    </label>
+                    <br> <br>
+
+                    <!--Button-->
+
+                    <button type="submit">
+                        Continue Exploring 🧭 
+                    </button>
+
+                </form>
+                <hr>
+            </div>
+        </section>
+
+        <!--============================================-->
+        <!--            MEET THE DEVELOPER              -->
+        <!--============================================-->
+
+        <section id="developer">
+            <div class="container">
+
+                <h2>💻 Meet The Developer </h2>
+
+                <p>
+                    Get to know the person behind this HTML Laboratory—the journey,
+                    the passion for technology, and the story behind every line of code.
+                </p>
+
+                <!-- developer portrait -->
+
+                <img src="s.sanmenan.png" alt="Portrait of S. Sanmenan"
+                    title="S. Sanmenan" width="210" height="210">
+
+                <h3>S. Sanmenan</h3>
+
+                <p>First-Year <abbr title="Bachelor of Engineering">B.E.</abbr> Computer Science Engineering Student</p>
+
+                <p>Chennai Institute of Technology</p>
+
+
+                <!-- My story -->
+
+                <h3>📖 My Story</h3>
+
+                    <!-- My journey -->
+                    <p>
+                        My journey has taken me through both Tamil Nadu and Kerala, 
+                        where I completed my schooling while adapting to different environments and experiences.
+                        Every stage taught me valuable lessons, strengthened my curiosity, 
+                        and prepared me for the next chapter of my life. 
+                        Today, I am excited to begin my engineering journey and continue learning with purpose.
+                    </p>
+
+                    <!-- Why I Chose CSE -->
+                    <p>
+                        As I begin my CSE journey at Chennai Institute of Technology, 
+                        I continue to strengthen my skills through learning opportunities such as the BuildX program. 
+                        This HTML Laboratory is one of my first web development projects, 
+                        created to practice HTML while sharing my story.
+                    </p>
+                        
+                    
+                     <!-- My Vision and future goals -->
+                    <p>
+                        Looking ahead, my goal is to build a strong foundation across the core areas of Computer Science 
+                        before specializing in cybersecurity and ethical hacking. 
+                        I believe understanding how software is designed and developed is just as important as learning how to secure it. 
+                        My aim is to become a secure developer—someone who can build reliable applications, identify vulnerabilities, 
+                        and contribute to creating safer digital systems.
+                        Alongside my technical journey, I also aspire to develop an entrepreneurial mindset and build innovative technology solutions. 
+                        This is just the beginning of a lifelong journey of learning, 
+                        building, and making a meaningful impact through technology.
+                    </p>
+                        
+            </div>  <hr>
+        </section>
+
+        <!--============================================-->
+        <!--                Education                   -->
+        <!--============================================-->
+
+        <section id="education">
+            <div class="container">
+                <h2> 🎓 Education </h2>
+                    <p>
+                        My educational journey has been a continuous process of learning and growth. 
+                        Each stage has helped me build a strong foundation, develop new perspectives,
+                        and discover my interest in technology. As a Computer Science student, 
+                        I look forward to learning new skills, taking on challenges, 
+                        and growing both academically and personally.
+                    </p>
+
+                <!-- table-->
+                <table border="3"> 
+                    <caption> <b> Educational Journey</b></caption>
+                
+                        <thead>
+                            <tr>
+                                <th scope="col">Stage</th>
+                                <th scope="col">Institution</th>
+                                <th scope="col">Board / University</th>
+                                <th scope="col">Time Period</th>
+                                <th scope="col"> Offical Website</th>
+                            </tr>
+                        </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                🧸 Kindergarten <br>
+                                <small>(Pre-K - UKG)</small>
+                            </td>
+                            <td>Kamarajar Vidyasalai Matric Higher Secondary School,<br>
+                                Thirumalapuram,Bodi.
+                            </td>
+                            <td>Matriculation</td>    
+                            <td>2011-2014</td>
+                            <td><a href="https://kvmhssbodi.com/" target="_blank"
+                                title="Visit the official website of Kamarajar Vidyasalai Matric Higher Secondary School"> Visit Official Website</a>
+                            </td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>
+                                📘 Primary Education <br>
+                                <small> (Grades 1-6)</small>
+                            </td>
+                            <td>The Spice Valley Public School,<br>
+                                Bodinayakanur.</td>
+                            <td><abbr title="Central Board of Secondary Education">CBSE</abbr></td>
+                            <td>2014-2020</td>
+                            <td> <a href="https://www.tsvps.in" target="_blank"
+                                title="Visit the official website of The Spice Value Public School">Visit Official Website</a>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                🎓 Secondary & Higher Secondary <br>
+                                <small> (Grades 7-12)</small>
+                            </td>
+                            <td>Montfort Valley Senior Secondary School,<br>
+                                Murickumthotty,Idukki.
+                            </td>
+                            <td><abbr title="Central Board of Secondary Education">CBSE</abbr></td>
+                            <td>2020-2026</td>
+                            <td> <a href="https://www.montfortvalley.ac.in/" target="_blank"
+                                title="Visit the official website of Montfort Valley Senior Secondary School">Visit Official Website</a>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                🏫 Undergraduate <br>
+                                <small>(<abbr title="Bachelor of Engineering">B.E.</abbr>
+                                    Computer Science Engineering)</small>
+                            </td>
+                            <td>Chennai Institute of Technology,<br>
+                                Kundrathur,Chennai.
+                            </td>
+                            <td>Anna University</td>
+                            <td>2026 – Present</td>
+                            <td><a href="https://citchennai.edu.in/" target="_blank"
+                                title="Visit the official website of Chennai Institute of Technology">Visit Official Website</a>
+                            </td>
+                        </tr>
+                     </tbody>
+
+                </table>
+                <h3>🌱 Beyond the Classroom</h3>
+
+                    <p>
+                        My education has been more than academics alone. Every school and learning
+                        environment has helped me develop discipline, adaptability, curiosity, and
+                        the confidence to embrace new challenges. These experiences continue to
+                        shape my personal growth and inspire me to keep learning throughout my
+                        journey.
+                    </p>
+                <hr>
+                </div>
+        </section>
+
+        <!--============================================-->
+        <!--                Skills                       -->
+        <!--============================================-->
+        <section id="skills">
+            <div class="container">
+
+                <h2>🛠️ Technical Skills</h2>
+
+                <p>
+                    I am continuously building my technical knowledge through learning, practice,
+                    and hands-on projects. The following section highlights my current technical
+                    skills, core strengths, and the technologies I plan to explore as I progress
+                    in my Computer Science journey.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <strong>Programming</strong>
+                        <ul>
+                            <li>Python (Fundamentals)</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <strong>Database</strong>
+                        <ul>
+                            <li>SQL (Basics)</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <strong>Web Development</strong>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>Semantic HTML</li>
+                            <li>HTML Forms</li>
+                            <li>HTML Tables</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <strong>Professional Strengths</strong>
+                        <ul>
+                            <li>Problem Solving</li>
+                            <li>Logical Thinking</li>
+                            <li>Mathematical Thinking</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <strong>Future Learning Goals</strong>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>Computer Networking</li>
+                            <li>Cybersecurity & Ethical Hacking</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <p>
+                    "I am committed to continuously expanding my technical knowledge by
+                    learning modern programming languages and cybersecurity technologies."
+                </p>
+            <hr>
+            </div>
+
+        </section>
+
+        <!--============================================-->
+        <!--               Achievements                 -->
+        <!--============================================-->
+
+        <section id="achievements">
+            <div class="container">
+                <h2>🏆 Achievements & Certifications</h2>
+                
+                    <p>
+                        Beyond academics, I have always enjoyed participating in sports, competitions, and extracurricular activities. 
+                        These experiences have strengthened my discipline, teamwork, confidence, and perseverance while teaching me valuable lessons beyond the classroom.
+                    </p>
+                
+                <!-- table-->
+                <table border="3">
+
+                    <caption><b>Achievements & Certifications</b></caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Event / Certification</th>
+                            <th scope="col">Level</th>
+                            <th scope="col">Organization</th>
+                            <th scope="col">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Discus Throw -->
+                        <tr>
+                            <td rowspan="2">Discus Throw</td>
+                            <td>District Level</td>
+                            <td>Idukki Sahodaya Athletics Meet</td>
+                            <td >3rd Place</td>
+                        </tr>
+                        <tr>
+                            <td>State Level</td>
+                            <td>Kerala State Athletics Meet(2024-2025)</td>
+                            <td>Participant</td>
+                        </tr>
+                        <!-- Shot Put -->
+                        <tr>
+                            <td rowspan="2">Shot Put</td>
+                            <td>Central Level</td>
+                            <td>
+                                Kerala State Sports Council- Central <br>Sports Meet
+                            </td>
+                            <td>2nd Place</td>
+                        </tr>
+                        <tr>
+                            <td>State Level</td>
+                            <td>Kerala State Athletics Meet (2024-2025)</td>
+                            <td>Participant</td>
+                        </tr>
+                        <!-- Chess -->
+                        <tr>
+                            <td rowspan="2">Chess</td>
+                            <td>District Level</td>
+                            <td>Idukki District Chess Championship</td>
+                            <td>3rd Place</td>
+                        </tr>
+                        <tr>
+                            <td>State Level</td>
+                            <td>State Chess Championship</td>
+                            <td>Participant</td>
+                        </tr>
+                        <!--Football-->
+                        <tr>
+                            <td>Football</td>
+                            <td>District Level</td>
+                            <td>Idukki Sahodaya Football Tournament</td>
+                            <td>Participant</td>
+                        </tr>
+                        <!-- Badminton -->
+                        <tr>
+                            <td>Badminton</td>
+                            <td>District Level</td>
+                            <td>Idukki Sahodaya Badminton Tournament</td>
+                            <td>Participant</td>
+                        </tr>
+                        <!--Hindi Examination-->
+                        <tr>
+                            <td>Hindi Parichay<br>Examination</td>
+                            <td>National Level</td>
+                            <td>Dakshina Bharat Hindi Prachar Sabha</td>
+                            <td>1st Class Certification </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                
+
+                <p>
+                    These experiences have taught me that success is built through consistent effort, 
+                    continuous learning, and the willingness to embrace every opportunity. 
+                    I look forward to carrying the same mindset into my academic journey and future career.
+                </p>
+
+            </div><hr>
+        </section>  
+
+        <!--============================================-->
+        <!--               Behind Laboratory            -->
+        <!--============================================-->
+        
+        <section id="behind_lab">
+            <div class="container"> 
+                <h2>🧪 Behind the HTML Laboratory</h2>
+                    <p>
+                        This project was never meant to be just a collection of HTML tags.
+                        I wanted it to become something more—a portfolio that represents my
+                        learning journey, creativity, and the foundation of my web development career.
+                    </p>
+                <h3> ●🗺️ Portfolio Blueprint</h3>
+
+                    <p>
+                        Before writing the first line of code, every meaningful project begins with a clear plan.
+                        The blueprint below presents the core design philosophy behind the HTML Laboratory,
+                        showing how content, HTML implementation, and user experience come together to form one complete portfolio.
+                    </p>
+
+                <pre>
+                                                            HTML LABORATORY
+                                                    Version 1.0 | Pure HTML Edition
+                                 ══════════════════════════════════════════════════════════════════
+
+                                                       PORTFOLIO BLUEPRINT
+
+
+                                                         PROJECT DESIGN
+                                                                │
+                                        ┌───────────────────────┼────────────────────────┐
+                                        │                       │                        │
+                                        ▼                       ▼                        ▼
+
+                                PORTFOLIO CONTENT      HTML IMPLEMENTATION      USER EXPERIENCE
+
+                                • Project Intro        • Semantic HTML          • Clear Navigation
+                                • Meet the Developer   • Forms & Validation     • Logical Structure
+                                • Education            • Tables & Lists         • Easy Readability
+                                • Technical Skills     • Hyperlinks             • Accessibility
+                                • Achievements         • Multimedia             • Consistent Design
+                                • Demonstration Video  • HTML Best Practices    • Future CSS Ready
+
+                                        └───────────────────────┼────────────────────────┘
+                                                                │
+                                                                ▼
+
+                                                     HTML Laboratory Portfolio
+
+                                                   Version 1.0 • Pure HTML Edition
+
+                                 ══════════════════════════════════════════════════════════════════ 
+                </pre>
+
+                <p>
+                    This blueprint represents the planning behind the project, illustrating how information,
+                    technical implementation, and user experience were carefully combined to create a structured
+                    and meaningful HTML portfolio.
+                </p>
+
+
+                <h3> ●🛠️ Laboratory Toolkit</h3>
+
+
+                <p>
+                    Every laboratory relies on the right set of tools and resources. Throughout the development of
+                    this project, the following technologies, platforms, and learning resources helped transform
+                    ideas into a complete HTML portfolio.
+                </p>
+
+                <ul>
+                    <li>💻 <strong>Visual Studio Code</strong> — Primary code editor used to build the project.</li>
+
+                    <li>🌐 <strong>Google Chrome</strong> — Used for testing, debugging, and previewing every webpage.</li>
+
+                    <li>📚 <strong>BuildX Bridge Course</strong> — The learning foundation that introduced the core concepts of HTML.</li>
+
+                    <li>🤖 <strong>ChatGPT</strong> — Assisted with brainstorming, planning, reviewing, debugging, and improving the overall portfolio.</li>
+
+                    <li>📁 <strong>Git &amp; GitHub</strong> — Used for version control, project management, and publishing the portfolio.</li>
+                </ul>
+
+                <p>
+                    This portfolio is the result of continuous learning, experimentation, problem-solving, and
+                    countless improvements. Every section reflects not only the HTML concepts I learned, but also
+                    the practical experience I gained while building this project from scratch.
+                </p>
+
+
+                
+
+                <h3>●🌱 Final Reflection</h3>
+
+                <p>
+                    HTML Laboratory represents much more than my first webpage.
+                    It marks the beginning of my journey as a Computer Science student and reflects my commitment
+                    to learning by building, experimenting, and continuously improving.
+                </p>
+
+                <p>
+                    Every section of this portfolio taught me something valuable—from understanding semantic HTML
+                    and organizing content to creating meaningful user experiences through thoughtful structure and design.
+                    Each challenge became an opportunity to learn, refine my skills, and grow with confidence.
+                </p>
+
+                <p>
+                    <mark><strong><em>Version 1.0 is not the destination—it is the foundation.</em></strong></mark>
+                    As I continue learning CSS, JavaScript, and modern web technologies, this portfolio will evolve
+                    alongside my knowledge, creativity, and passion for software development.
+                </p>
+
+                <p>
+                    Thank you for taking the time to explore my HTML Laboratory.
+                    I hope this portfolio reflects not only what I have learned, but also the curiosity,
+                    dedication, and enthusiasm that I will continue bringing to every future project.
+                </p>
+                                                
+
+            </div><hr>
+
+        </section>
+
+
+
+
+
+        <!--============================================-->
+        <!--          PROJECT DEMONSTRATION             -->
+        <!--============================================-->
+
+        <section id="project_demo">
+
+            <div class="container">
+
+                <h2>🎥 Project Demonstration</h2>
+
+                <p>
+                    Seeing a project in action often explains it better than words.
+                    This walkthrough showcases the structure, navigation, and key
+                    sections of HTML Laboratory Version 1.0 while demonstrating how
+                    the portfolio was built using pure HTML.
+                </p>
+
+                <iframe src="https://www.youtube.com/embed/EMgPqqjH0Fw" 
+                    width="700"
+                    height="394"
+                    allowfullscreen
+                    title="HTML Laboratory Version 1.0 Demonstration Video">            
+                </iframe>
+
+                <p>
+                    This demonstration reflects my first step into web development,
+                    combining everything I learned throughout the BuildX Bridge Course
+                    into one complete HTML portfolio...
+                </p>
+
+            </div>
+
+            <hr>
+
+        </section>
+
+        
+
+        <!--============================================-->
+        <!--               Contact Details              -->   
+        <!--============================================-->
+
+        <section id="looking_ahead">
+            <div class="container">
+
+                <h2>🌅 Looking Ahead</h2>
+
+                    <p>
+                        HTML Laboratory Version 1.0 is where my web development journey begins.
+                        Every section you've explored reflects something I learned, practiced,
+                        and built from scratch.
+                    </p>
+
+                    <p>
+                        There's still so much more to discover, and I'm excited for every challenge,
+                        every project, and every new version that lies ahead.
+                        If you'd like to follow my journey or simply stay connected,
+                        you'll find me here.
+                    </p>
+
+                <address>
+                    <ul>
+                        <li> 📧<a href="mailto:mathimenann@gmail.com" title="Send me an email" > Email </a></li>
+                        <li> 💼
+                            <a href="https://www.linkedin.com/in/ssanmenan" target="_blank"
+                            rel="noopener noreferrer" title="Visit my LinkedIn profile">  LinkedIn </a>
+                        </li>
+                        <li> 🐙
+                            <a href="https://github.com/mathimenann-ai" target="_blank" 
+                            rel="noopener noreferrer" title="Visit my GitHub profile">  GitHub </a>
+                        </li>
+                    </ul>
+                </address>
+
+                <p><em>"This project marks where I began...Everything I build from here will tell the story of how I grow 🌱."</em></p>
+            </div><hr>
+        </section>
+
+
+    </main>
+
+          <!--============================================-->
+          <!--                  Footer                    -->
+          <!--============================================-->
+
+    <footer id="footer">
+        <div class="container">
+            <h2>💻 HTML Laboratory</h2>
+
+            <p>
+                <b><u>Version 1.0</u></b> • Pure HTML Edition
+            </p>
+
+            <p>
+                Designed &amp; Developed by <strong>S. Sanmenan</strong>
+            </p>
+
+            <p>
+                ❤️ <em>Learning by Building. Growing through Curiosity.</em>
+            </p>
+
+            <p>
+                <strong>Built With:</strong> HTML5 • Visual Studio Code • Git &amp; GitHub
+            </p>
+
+            <p>
+                <strong>Last Updated:</strong> <date datetime="2026-07-21">July 21, 2026</date>
+            </p>
+
+            <p>
+                <small>© 2026 S. Sanmenan • All Rights Reserved.</small>
+            </p>
+            
+
+            <hr>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html> 
